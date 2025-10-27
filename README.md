@@ -5,9 +5,7 @@ Reproducible Python implementations of **single-objective** and **multi-objectiv
 - Belledonne (multimodal)
 - 2-objective benchmark with an **MPSO** (Pareto) variant
 
-> This repo packages the scripts and report you provided so it’s ready to publish on GitHub.
-
-## 📁 Project structure
+##  Components
 
 ```
 pso-particle-swarm-optimization/
@@ -15,15 +13,13 @@ pso-particle-swarm-optimization/
 │  ├─ Rosenbrock_PSO_Evaluation.py
 │  ├─ Belledone_PSO_Evaluation.py
 │  └─ MULTI_OBJECTIVE_PSO.py
-├─ report/
-│  └─ COMPUTER_SCIENCE_PSO_REPORT.pdf
 ├─ .gitignore
 ├─ LICENSE
 ├─ requirements.txt
 └─ README.md
 ```
 
-## 🚀 Quick start
+## Quick start
 
 ```bash
 # 1) Create & activate a virtual env (recommended)
@@ -50,15 +46,13 @@ Each script prints optimization progress and shows the corresponding plots.
 - **`Belledone_PSO_Evaluation.py`**: Improved PSO with random inertia, velocity clamping, and multi-run restarts.
 - **`MULTI_OBJECTIVE_PSO.py`**: Minimal **MPSO** implementation with archive, crowding distance, and binary-tournament leader selection.
 
-The **full project report** is in `report/COMPUTER_SCIENCE_PSO_REPORT.pdf`.
-
 ## ✅ Python version
 
 Python 3.9+ is recommended.
 
 ## 📝 Citation
 
-If you use this code or the accompanying report, please consider citing your report (PDF) and/or this repository.
+If you use this code or the accompanying report, please consider citing this repository.
 
 ## 📄 License
 
